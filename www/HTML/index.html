@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../CSS/PaginaPrincipal.css">
+      </head>
+<body>
+    <header>
+        <h1>Pass Saver</h1>
+        <button type="button" id="addCategoryBtn">Añadir categoría</button>
+        <button type="button" id="addSiteBtn">Añadir site</button>
+      <!--  <button type="button" id="CatEliminar">Eliminar categoría</button> -->
+        <button type="button" id="SiteEliminar">Eliminar site</button>
+    </header>
+    <main>
+        <section id="categories">
+        <h2>Categorías</h2>
+        <ul id="categoryList">
+        </ul>
+        </section>
+        <section id="sites">
+        <h2>Sites</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Sitio</th>
+                <th>Usuario</th>
+                <th>Fecha creación</th>
+                <th>Acciones</th>
+            </tr>
+            </thead>
+            <tbody id="siteList">
+            </tbody>
+        </table>
+        </section>
+    </main>
+<script src="../JS/PaginaPrincipal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
